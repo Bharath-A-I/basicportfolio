@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel='stylesheet' href="style.css"/>
+        <link rel="stylesheet" href="media.css"/>
+    </head>
+    <body>
+      <section id="home">
+      <nav id="desktop-nav">
+        <div class="logo">Bharath A I</div>
+        <div>
+            <ul class="nav-link">
+                <li><a href="#about">About</a></li>
+                <li><a href="#Project">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+      </nav>  
+      <nav id="hamburger">
+        <div class="logo">Bharath A I</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggle()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <div class="menu-link">
+          <li><a href="#about" onclick="toggle()">About</a></li>
+          <li><a href="#Project" onclick="toggle()">Projects</a></li>
+          <li><a href="#Contact" onclick="toggle()">Contact</a></li>
+          </div>
+        </div>
+        </div>
+
+      </nav>
+      <div class="section_text">
+        <p class="section_text_p1">Hello I'm</p>
+        <h1 class="hello">Bharath A I</h1>
+        <p class="section_text_p2">Data Analyst and Frontend Developer</p>
+        <div class="btn_container">
+          <button class="btn_container_2" onclick="window.open('C:\Users\bhara\Downloads\Split_000_09052024.pdf')">Cv</button>
+          <button class="btn_container_1" onclick="location.href='#Contact'">Info</button>
+        </div>
+        <div id="social_container" >
+          <img src="e.jpeg" alt="My Linkedin" class="icon" onclick="location.href='https://www.linkedin.com/in/bharath-azhagu-kumar-9098a0259/'">
+          <img src="github_PNG80.png" alt="My Github" class="icon" onclick="location.href='https://github.com/Bharath-A-I'">
+        </div>
+      </div>
+      </section>
+      <section id="section1">
+
+      </section>
+        <section id="about">
+          <h3>Get to know more about me</h3>
+        <ul>
+            <li>&#x2022; I'm Bharath A I, a passionate Full Stack Developer with a keen interest in building modern web applications and harnessing the power of AI and Data Science.I’m a creative problem solver who enjoys working on innovative projects and delivering impactful solutions.</li>
+            <li>&#x2022; My goal is to always build products that provide pixel-perfect, performant experiences.</li>
+           <li>&#x2022; I am currently pursuing my Artificial Intelligence And Data Science from St. Joseph's Institute of Technology, Chennai. I am expected to graduate in May 2026.</li>
+        </ul>
+        <h1>Skills</h1>
+        <h4>Data Science</h4>
+        <div class="progressbar">
+        <progress class="skills" value="50" max="100">50%</progress>
+        <h4>Web Development</h4>
+        <progress class="skills" value="50" max="100">50%</progress>
+       </div>
+        <section id="skills">
+          <h2>My Skills</h2>
+          <div class="skillbadges">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">Javascript</span>
+            <span class="badge">Python</span>
+            <span class="badge">C</span>
+            <span class="badge">Java</span>
+          </div>
+        </section>
+      </section>
+        
+        <section id="section2">
+     
+      <section id="Project">
+        <h3>Projects</h3>
+        <div class="project_text">
+          <div class="project_text">
+        <h2>TNEB Bill Calculator</h2>
+        <p>Technologies Used: HTML,CSS,Javascript</p>
+        <p>All domestic electricity users from Tamil Nadu can easily calculate their exact electricity bill amount by using this user-friendly application. This site is updated based on the tariff revised by TANGEDCO </p>
+      </div>
+      <div class="project_text">    <h2>Sales Insights Analysis</h2>
+        <p>Technologies Used: Power BI</p>
+        <p>Developed a comprehensive sales insights dashboard to provide actionable insights for the sales team
+          .The dashboard targets sales managers and  analysts, helping them track performances metrics,identify trends and make decisions.
+        </p>
+      </div>
+      <div class="project_text">
+        <h2>Churn Prediction Model</h2>
+        <p>Technologies Used:Python(Programming Language),TensorFlow and Keras(Machine Learning Frameworks),Numpy,Pandas,Matplotlib,Seaborn.</p>
+        <p>Developed a churn Prediction model to enhance the business strategies and the customer retention efforts..
+        </p>
+      </div>
+      </div>
+      </section>
+      </section>
+
+      <section id="Contact">
+        <div class="contact-container">
+          <h2>Contact me</h2>
+          <div id="contact-container">
+          <img src="e.jpeg" alt="My Linkedin" class="icon1" onclick="location.href='https://www.linkedin.com/in/bharath-azhagu-kumar-9098a0259/'">
+          <img src="mail.jpeg" class="icon1"  alt="My Gmail" onclick="location.href='https://mail.google.com/mail/u/0/#inbox'"target="blank">
+          <img src="github_PNG80.png" alt="My Github"  class="icon1" onclick="location.href='https://github.com/Bharath-A-I'" target="blank">
+        </div>   
+        </div>
+        </div>
+      </section>
+      <script src="port.js"></script>
+    </body>
+</html>
